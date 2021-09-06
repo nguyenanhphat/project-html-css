@@ -1,0 +1,15 @@
+:root {
+  --secondary-color-500: #de5212;
+  --secondary-color-400: #e9672b;
+  --secondary-color-300: #ef8c5f;
+  --secondary-color-200: #e8cfb5;
+  --secondary-color-100: #fbf8f5;
+
+  --neutral-color-500: #1d1f1f;
+  --neutral-color-400: #5d5f5f;
+  --neutral-color-300: #b6b8b8;
+  --neutral-color-200: #e3e3e3;
+  --neutral-color-100: #f4f4f5;
+
+  --accent-color-500: #da3e31;
+}

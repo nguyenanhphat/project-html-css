@@ -1,0 +1,23 @@
+#header {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+#header .text-menu {
+  color: var(--neutral-color-400);
+}
+
+#header .text-menu-selected {
+  color: var(--neutral-color-500);
+  font-weight: bold;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #header .listMenu {
+    display: none;
+  }
+}

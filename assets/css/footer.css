@@ -1,0 +1,20 @@
+#section-footer {
+  margin-top: 40px;
+  background: var(--neutral-color-500);
+}
+
+#section-footer .content {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#section-footer .content .text-content {
+  color: #fbf8f5;
+}
+#section-footer .content .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}

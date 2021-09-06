@@ -1,0 +1,9 @@
+#section-breadcrumb {
+  background: var(--neutral-color-100);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#section-breadcrumb .breadcrumb {
+  margin-bottom: 0;
+}

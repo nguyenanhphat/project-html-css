@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/variables.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div id="root">
+      <!-- Section header -->
+      <div class="row justify-content-center">
+        <div class="col col-xs-12 col-md-8">
+          <header id="header">
+            <div class="row">
+              <div class="col col-md-3">
+                <a href="./index.html"
+                  ><img src="./assets/images/header/logo.png"
+                /></a>
+              </div>
+              <div class="col col-md-6 listMenu">
+                <div
+                  class="
+                    row
+                    align-items-center
+                    justify-content-center
+                    g-2
+                    h-100
+                  "
+                >
+                  <div class="col text-center">
+                    <span class="text-menu-selected">Trang chủ</span>
+                  </div>
+                  <div class="col text-center">
+                    <span class="text-menu">Shop</span>
+                  </div>
+                  <div class="col text-center">
+                    <span class="text-menu">Liên hệ</span>
+                  </div>
+                  <div class="col text-center">
+                    <span class="text-menu">Về chúng tôi</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+      </div>
+      <!-- End section header -->
+
+      <!-- Section cart -->
+      <section id="section-cart">
+        <div class="row justify-content-center">
+          <div class="col col-xs-12 col-md-8">
+            <div class="title3 mb-4">Giỏ hàng của bạn</div>
+
+            <div class="row g-4">
+              <div class="col col-xs-12 col-md-8 border-bottom-0">
+                <table class="table border">
+                  <tbody>
+                    <tr>
+                      <!-- <th></th> -->
+                      <td>
+                        <div class="px-4">Sản phẩm</div>
+                      </td>
+                      <td>Số lượng</td>
+                      <td>Giá</td>
+                    </tr>
+                    <tr>
+                      <!-- <th class="text-center"></th> -->
+                      <td>
+                        <div class="row g-2 align-items-center">
+                          <div class="col col-md-3">
+                            <img
+                              class="w-100"
+                              src="./assets/images/furniture-product/product2.png"
+                            />
+                          </div>
+                          <div class="col col-md-9">
+                            <div>Ghế gỗ</div>
+                            <div>Màu: nâu</div>
+                            <div>Kích thước: 40x60 cm</div>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="align-middle">
+                        <input
+                          style="width: 100px"
+                          class="form-control"
+                          min="0"
+                          name="quantity"
+                          value="1"
+                          type="number"
+                        />
+                      </td>
+                      <td class="align-middle">
+                        <span class="bodyText2">$69.36</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="mt-4">
+                  <div class="d-flex align-items-cente">
+                    <div>
+                      <a href="./index.html">
+                        <img src="./assets/icons/arrow-left.svg"
+                      /></a>
+                    </div>
+                    <div>Tiếp tục shopping</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-xs-12 col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title mb-4">Tổng</h5>
+
+                    <div class="card-text">
+                      <div class="row mb-2">
+                        <div class="col bodyText1-300">Tổng phụ</div>
+                        <div class="col text-end bodyText1">$94.14</div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col bodyText1-300">Vận chuyển</div>
+                        <div class="col text-end bodyText1">Miễn phí</div>
+                      </div>
+
+                      <div class="border-top pt-3 mb-3">
+                        <div class="bodyText1-300 mb-2">Mã giảm giá</div>
+
+                        <div class="row align-items-center">
+                          <div class="col col-md-8">
+                            <input
+                              placeholder="Nhập mã giảm giá"
+                              class="form-control"
+                              name="discount"
+                            />
+                          </div>
+                          <div class="col col-md-4">
+                            <button class="btn-secondary-lg">Áp dụng</button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="border-top pt-3 mb-3">
+                        <div class="row">
+                          <div class="col bodyText1-300">Tổng</div>
+                          <div class="col text-end bodyText1">$94.14</div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <button class="btn-neutral-lg">
+                          Tiến hành thanh toán
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End section cart -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+#section-best-seller .content {
+  background: var(--secondary-color-100);
+}
+
+#section-best-seller .list-furniture {
+  display: flex;
+  margin: -10px;
+  width: calc(100% + 10px);
+}
+
+#section-best-seller .furniture-item {
+  width: 20%;
+  padding: 10px;
+}
+
+#section-best-seller .furniture-item .card-item {
+  background: white;
+}
+
+#section-best-seller .card-item .price {
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--accent-color-500);
+}
+
+#section-best-seller .card-item .txt-add-to-cart {
+  font-size: 14px;
+  color: var(--accent-color-500);
+}
+
+@media only screen and (max-device-width: 480px) {
+  #section-best-seller .list-furniture {
+    flex-wrap: wrap;
+  }
+  #section-best-seller .furniture-item {
+    width: 100%;
+  }
+}

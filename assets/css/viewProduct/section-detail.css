@@ -1,0 +1,9 @@
+#section-detail-item {
+  margin-top: 30px;
+}
+
+#section-detail-item .price {
+  font-size: 36px;
+  color: var(--accent-color-500);
+  font-weight: bold;
+}
