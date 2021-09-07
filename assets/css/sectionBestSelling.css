@@ -12,6 +12,9 @@
   width: 20%;
   padding: 10px;
 }
+.text-decoration-none {
+  text-decoration: none;
+}
 
 #section-best-seller .furniture-item .card-item {
   background: white;
