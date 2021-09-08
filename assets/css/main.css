@@ -126,3 +126,19 @@ body {
   color: white;
 }
 /* End button common */
+
+/* Custom input */
+.input-custom {
+  border: 1px solid var(--neutral-color-300);
+  border-radius: 40px;
+  height: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.input-custom::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: var(--neutral-color-300);
+}
+/* End custom input */

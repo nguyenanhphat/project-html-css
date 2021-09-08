@@ -6,6 +6,7 @@
   display: flex;
   margin: -10px;
   width: calc(100% + 10px);
+  position: relative;
 }
 
 #section-best-seller .furniture-item {
@@ -29,6 +30,36 @@
 #section-best-seller .card-item .txt-add-to-cart {
   font-size: 14px;
   color: var(--accent-color-500);
+}
+
+.list-furniture .icon-prev {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--neutral-color-200);
+}
+
+.list-furniture .icon-next {
+  position: absolute;
+  top: 50%;
+  right: -28px;
+  transform: translate(-50%, -50%);
+  background: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--neutral-color-200);
 }
 
 @media only screen and (max-device-width: 480px) {

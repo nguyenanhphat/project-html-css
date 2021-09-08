@@ -3,6 +3,10 @@
   padding-bottom: 34px;
 }
 
+.wrapper-header {
+  border-bottom: 1px solid var(--neutral-color-200);
+}
+
 #header .text-menu {
   color: var(--neutral-color-400);
 }
@@ -10,6 +14,13 @@
 #header .text-menu-selected {
   color: var(--neutral-color-500);
   font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--neutral-color-500);
+}
+
+#header .no-underline {
+  color: var(--neutral-color-500);
+  text-decoration: none;
 }
 
 @media only screen and (max-device-width: 480px) {

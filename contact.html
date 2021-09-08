@@ -7,15 +7,10 @@
     <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/variables.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
-    <link
-      rel="stylesheet"
-      href="./assets/css/viewProduct/section-breadcumb.css"
-    />
-    <link rel="stylesheet" href="./assets/css/viewProduct/section-detail.css" />
+    <link rel="stylesheet" href="./assets/css/contact/contact-form.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-
-    <title>Product</title>
+    <title>Contact</title>
     <link
       rel="shortcut icon"
       href="./assets/images/favicon.png"
@@ -25,7 +20,7 @@
   <body>
     <div id="root">
       <!-- Section header -->
-      <div class="row justify-content-center">
+      <div class="row justify-content-center wrapper-header">
         <div class="col col-xs-12 col-md-8">
           <header id="header">
             <div class="row">
@@ -45,23 +40,27 @@
                   "
                 >
                   <div class="col text-center">
-                    <span class="text-menu-selected">
+                    <span class="text-menu">
                       <a class="no-underline" href="./index.html">Trang chủ</a>
                     </span>
                   </div>
+                  <!-- <div class="col text-center">
+                    <span class="text-menu">Shop</span>
+                  </div> -->
                   <div class="col text-center">
-                    <span class="text-menu">
-                      <a class="no-underline" href="./contact.html">Liên hệ</a>
-                    </span>
+                    <span class="text-menu-selected">Liên hệ</span>
                   </div>
                   <div class="col text-center">
                     <span class="text-menu">
-                      <a class="no-underline" href="./aboutUs.html">
-                        Về chúng tôi
-                      </a>
+                      <a class="no-underline" href="./aboutUs.html"
+                        >Về chúng tôi</a
+                      >
                     </span>
                   </div>
                 </div>
+              </div>
+              <div class="col col-md-3">
+                <div class="text-end"></div>
               </div>
             </div>
           </header>
@@ -69,97 +68,102 @@
       </div>
       <!-- End section header -->
 
-      <!-- Section breadcrumb -->
-      <section id="section-breadcrumb">
-        <div class="row justify-content-center">
-          <div class="col col-xs-12 col-md-8">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                  <a class="no-decoration" href="./index.html">Trang chủ</a>
-                </li>
-                <li class="breadcrumb-item">Bàn gỗ</li>
-              </ol>
-            </nav>
-          </div>
-        </div>
-      </section>
-      <!-- End section breadcrumb -->
+      <!-- Form Contact Us -->
+      <div id="contact-form" class="container mt-4">
+        <div class="row g-4 row-cols-1">
+          <div class="col col-xs-12 col-md-7">
+            <div class="mb-2 title3">Liên hệ với chúng tôi</div>
+            <div class="bodyText2-300">
+              126 / 5000 Kết quả dịch Chúng tôi rất muốn nghe ý kiến của bạn, vì
+              vậy, nếu bạn có bất cứ điều gì muốn hỏi chúng tôi, chúng tôi luôn
+              sẵn sàng trợ giúp bằng mọi cách có thể.
+            </div>
 
-      <!-- Section detail -->
-      <section id="section-detail-item">
-        <div class="row justify-content-center">
-          <div class="col col-xs-12 col-md-8">
-            <div class="row row-cols-1 g-4">
-              <div class="col col-sm-12 col-md-6">
-                <div class="row g-3">
-                  <div class="col col-md-6">
-                    <img
-                      class="w-100 h-100"
-                      src="./assets/images/furniture-product/larkin1.png"
-                    />
-                  </div>
-                  <div class="col col-md-6">
-                    <img
-                      class="w-100 h-100"
-                      src="./assets/images/furniture-product/larkin2.png"
-                    />
-                  </div>
-                  <div class="col col-md-6">
-                    <img
-                      class="w-100 h-100"
-                      src="./assets/images/furniture-product/larkin3.png"
-                    />
-                  </div>
-                  <div class="col col-md-6">
-                    <img
-                      class="w-100 h-100"
-                      src="./assets/images/furniture-product/larkin4.png"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="col col-sm-12 col-md-6">
-                <div class="title4-300 mb-2">Larkin wood</div>
-                <div class="mb-2 price">$88.00</div>
-                <div class="mb-4 bodyText2-200">
-                  Đó là một khoản nợ tài chính, 'Tôi phản đối sai lầm này' vì
-                  lợi ích mà nó đang được chuyển đến tay người dân. Em à, cũng
-                  như những sai lầm của anh, những lời chỉ trích của anh đều
-                  diễn ra suôn sẻ. Và những người bị lừa làm theo bằng tiếng
-                  Latinh. Chúng được kêu gọi để được bao bọc trong một căn
-                  phòng. Đó là một khoản nợ tài chính, 'Tôi phản đối sai lầm
-                  này' vì lợi ích mà nó đang được chuyển đến tay người dân.
-                </div>
-
-                <div class="row g-2 mb-4 align-items-center">
-                  <div class="col col-2 bodyText1-400">Quantity</div>
-                  <div class="col col-3">
+            <div class="mt-4">
+              <form>
+                <div class="row g-4 row-cols-1">
+                  <div class="col col-xs-12 col-md-6">
+                    <label class="form-label">Họ và tên</label>
                     <input
                       class="form-control input-custom"
-                      min="0"
-                      name="quantity"
-                      value="1"
-                      type="number"
+                      placeholder="Nhập tên của bạn"
                     />
                   </div>
-                </div>
-
-                <div class="row mt-4">
                   <div class="col col-xs-12 col-md-6">
-                    <a href="./shoppingCart.html"
-                      ><button class="btn-secondary-lg">
-                        Thêm vào giỏ hàng
-                      </button></a
-                    >
+                    <label class="form-label">Email</label>
+                    <input
+                      class="form-control input-custom"
+                      placeholder="Nhập email của bạn"
+                    />
+                  </div>
+                  <div class="col col-xs-12 col-md-6">
+                    <label class="form-label">Số điện thoại</label>
+                    <input
+                      class="form-control input-custom"
+                      placeholder="Nhập số điên thoại của bạn"
+                    />
+                  </div>
+                  <div class="col col-xs-12 col-md-6">
+                    <label class="form-label">Tiêu đề</label>
+                    <input
+                      class="form-control input-custom"
+                      placeholder="Nhập tiêu đề của bạn"
+                    />
+                  </div>
+
+                  <div class="col col-12">
+                    <label class="form-label">Mô tả</label>
+                    <textarea class="form-control" rows="5"></textarea>
                   </div>
                 </div>
+              </form>
+            </div>
+
+            <div class="row justify-content-end mt-4">
+              <div class="col col-md-3">
+                <button class="btn-neutral-lg">Submit</button>
               </div>
             </div>
           </div>
+          <div class="col col-xs-12 col-md-5">
+            <div class="bodyText2 mb-2">GIỜ LÀM VIỆC</div>
+            <div class="mb-4 bodyText2-300">
+              Thứ hai - thứ 6, 9:00am - 5:00pm
+            </div>
+
+            <div class="align-items-center mb-2">
+              <span>
+                <img src="./assets/images/contact/home.png" />
+              </span>
+              <span class="bodyText2-300 mx-1">Phạm Thế Hiển, P7, Q8</span>
+            </div>
+            <div class="phone mb-2">
+              <span>
+                <img src="./assets/images/contact/phone.png" />
+              </span>
+              <span class="bodyText2-300 mx-1"
+                >(800) 8001-8588, (0600) 874 548</span
+              >
+            </div>
+            <div class="email mb-4">
+              <span>
+                <img src="./assets/images/contact/email.png" />
+              </span>
+              <span class="bodyText2-300 mx-1"
+                >nguyenanhphat2805@gmail.com</span
+              >
+            </div>
+
+            <div class="email mb-2 bodyText2">THAM GIA VỚI CHÚNG TÔI</div>
+            <div class="email mb-2 bodyText2-300">
+              Chúng tôi rất vui khi mở thông tin kết hợp mới. Bạn có thể đặt bất
+              kỳ câu hỏi nào và đưa ra các vấn đề qua điện thoại, email,
+              Instagram hoặc Facebook
+            </div>
+          </div>
         </div>
-      </section>
-      <!-- End section detail -->
+      </div>
+      <!-- End Form Contact Us -->
 
       <!-- Section footer -->
       <footer id="section-footer">
