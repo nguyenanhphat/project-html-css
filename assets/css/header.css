@@ -18,6 +18,11 @@
   border-bottom: 2px solid var(--neutral-color-500);
 }
 
+#header .text-menu:hover,
+#header .text-menu-selected:hover {
+  opacity: 0.7;
+}
+
 #header .no-underline {
   color: var(--neutral-color-500);
   text-decoration: none;
@@ -29,6 +34,6 @@
     padding-bottom: 15px;
   }
   #header .listMenu {
-    display: none;
+    /* display: none; */
   }
 }

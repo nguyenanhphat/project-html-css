@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/contact/contact-form.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/lib/aos/aos.css" />
     <title>Contact</title>
     <link
       rel="shortcut icon"
@@ -23,13 +24,13 @@
       <div class="row justify-content-center wrapper-header">
         <div class="col col-xs-12 col-md-8">
           <header id="header">
-            <div class="row">
-              <div class="col col-md-3">
+            <div class="row row-cols-1">
+              <div class="col col-xs-12 col-md-3">
                 <a href="./index.html"
                   ><img src="./assets/images/header/logo.png"
                 /></a>
               </div>
-              <div class="col col-md-6 listMenu">
+              <div class="col col-xs-12 col-md-6 listMenu">
                 <div
                   class="
                     row
@@ -59,9 +60,6 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-md-3">
-                <div class="text-end"></div>
-              </div>
             </div>
           </header>
         </div>
@@ -69,7 +67,7 @@
       <!-- End section header -->
 
       <!-- Form Contact Us -->
-      <div id="contact-form" class="container mt-4">
+      <div data-aos="zoom-in" id="contact-form" class="container mt-4">
         <div class="row g-4 row-cols-1">
           <div class="col col-xs-12 col-md-7">
             <div class="mb-2 title3">Liên hệ với chúng tôi</div>
@@ -166,7 +164,7 @@
       <!-- End Form Contact Us -->
 
       <!-- Section footer -->
-      <footer id="section-footer">
+      <footer data-aos="fade-up" id="section-footer">
         <div class="row justify-content-center">
           <div class="col col-md-8 col-xs-12 content">
             <div class="row row-cols-1 g-4">
@@ -218,4 +216,13 @@
       <!-- End section footer -->
     </div>
   </body>
+  <script src="./assets/js/aos/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 1000, // values from 0 to 3000, with step 50ms
+      easing: "ease",
+    });
+  </script>
 </html>

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/section-banner-ad.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/lib/aos/aos.css" />
 
     <title>Home</title>
     <link
@@ -28,13 +29,13 @@
       <div class="row justify-content-center">
         <div class="col col-xs-12 col-md-8">
           <header id="header">
-            <div class="row">
-              <div class="col col-md-3">
+            <div class="row row-cols-1">
+              <div class="col col-xs-12 col-md-3">
                 <a href="./index.html"
                   ><img src="./assets/images/header/logo.png"
                 /></a>
               </div>
-              <div class="col col-md-6 listMenu">
+              <div class="col col-xs-12 col-md-6 listMenu">
                 <div
                   class="
                     row
@@ -63,9 +64,6 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-md-3">
-                <div class="text-end"></div>
-              </div>
             </div>
           </header>
         </div>
@@ -76,8 +74,8 @@
       <section id="banner">
         <div class="row align-items-center h-100">
           <div class="col col-12 text-center tileHero">
-            <div class="tileHero">NỘI THẤT TUYỆT VỜI</div>
-            <div class="row justify-content-center">
+            <div data-aos="fade-down" class="tileHero">NỘI THẤT TUYỆT VỜI</div>
+            <div data-aos="fade-up" class="row justify-content-center">
               <div class="col col-xs-6 col-md-2">
                 <button class="btn-secondary-lg">Nhìn này</button>
               </div>
@@ -88,7 +86,7 @@
       <!-- End section banner -->
 
       <!-- Section number room -->
-      <section id="room">
+      <section data-aos="zoom-in" id="room">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col col-xs-12 col-md-7">
@@ -134,8 +132,10 @@
               <div class="p-4">
                 <div class="container">
                   <div class="row gy-4">
-                    <div class="col col-12 title4">Sản phẩm đang giảm giá</div>
-                    <div class="col col-12">
+                    <div data-aos="fade-right" class="col col-12 title4">
+                      Sản phẩm đang giảm giá
+                    </div>
+                    <div data-aos="fade-left" class="col col-12">
                       <div class="list-furniture">
                         <div class="icon-prev">
                           <img src="./assets/icons/prev-icon.svg" />
@@ -303,8 +303,10 @@
               <div class="p-4">
                 <div class="container">
                   <div class="row gy-4">
-                    <div class="col col-12 title4">Sản phẩm mua nhiều nhất</div>
-                    <div class="col col-12">
+                    <div data-aos="fade-left" class="col col-12 title4">
+                      Sản phẩm mua nhiều nhất
+                    </div>
+                    <div data-aos="fade-right" class="col col-12">
                       <div class="list-furniture">
                         <div class="icon-prev">
                           <img src="./assets/icons/prev-icon.svg" />
@@ -468,7 +470,7 @@
       <!-- End section best seller -->
 
       <!-- Section banner ad -->
-      <section id="section-banner-ad">
+      <section data-aos="zoom-in" id="section-banner-ad">
         <div class="row justify-content-center">
           <div class="col col-md-10 content">
             <div class="container">
@@ -493,7 +495,7 @@
       <!-- End section banner ad -->
 
       <!-- Section footer -->
-      <footer id="section-footer">
+      <footer data-aos="fade-up" id="section-footer">
         <div class="row justify-content-center">
           <div class="col col-md-8 col-xs-12 content">
             <div class="row row-cols-1 g-4">
@@ -545,4 +547,14 @@
       <!-- End section footer -->
     </div>
   </body>
+
+  <script src="./assets/js/aos/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 1000, // values from 0 to 3000, with step 50ms
+      easing: "ease",
+    });
+  </script>
 </html>

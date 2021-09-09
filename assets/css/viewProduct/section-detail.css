@@ -7,3 +7,12 @@
   color: var(--accent-color-500);
   font-weight: bold;
 }
+
+#section-detail-item .wrapper-image img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+#section-detail-item .wrapper-image:hover img {
+  transform: scale(1.1);
+}

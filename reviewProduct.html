@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/viewProduct/section-detail.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/lib/aos/aos.css" />
 
     <title>Product</title>
     <link
@@ -28,13 +29,13 @@
       <div class="row justify-content-center">
         <div class="col col-xs-12 col-md-8">
           <header id="header">
-            <div class="row">
-              <div class="col col-md-3">
+            <div class="row row-cols-1">
+              <div class="col col-xs-12 col-md-3">
                 <a href="./index.html"
                   ><img src="./assets/images/header/logo.png"
                 /></a>
               </div>
-              <div class="col col-md-6 listMenu">
+              <div class="col col-xs-12 col-md-6 listMenu">
                 <div
                   class="
                     row
@@ -91,27 +92,27 @@
         <div class="row justify-content-center">
           <div class="col col-xs-12 col-md-8">
             <div class="row row-cols-1 g-4">
-              <div class="col col-sm-12 col-md-6">
+              <div data-aos="fade-right" class="col col-sm-12 col-md-6">
                 <div class="row g-3">
-                  <div class="col col-md-6">
+                  <div class="col col-md-6 wrapper-image">
                     <img
                       class="w-100 h-100"
                       src="./assets/images/furniture-product/larkin1.png"
                     />
                   </div>
-                  <div class="col col-md-6">
+                  <div class="col col-md-6 wrapper-image">
                     <img
                       class="w-100 h-100"
                       src="./assets/images/furniture-product/larkin2.png"
                     />
                   </div>
-                  <div class="col col-md-6">
+                  <div class="col col-md-6 wrapper-image">
                     <img
                       class="w-100 h-100"
                       src="./assets/images/furniture-product/larkin3.png"
                     />
                   </div>
-                  <div class="col col-md-6">
+                  <div class="col col-md-6 wrapper-image">
                     <img
                       class="w-100 h-100"
                       src="./assets/images/furniture-product/larkin4.png"
@@ -119,7 +120,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-sm-12 col-md-6">
+              <div data-aos="fade-left" class="col col-sm-12 col-md-6">
                 <div class="title4-300 mb-2">Larkin wood</div>
                 <div class="mb-2 price">$88.00</div>
                 <div class="mb-4 bodyText2-200">
@@ -162,7 +163,7 @@
       <!-- End section detail -->
 
       <!-- Section footer -->
-      <footer id="section-footer">
+      <footer data-aos="fade-up" id="section-footer">
         <div class="row justify-content-center">
           <div class="col col-md-8 col-xs-12 content">
             <div class="row row-cols-1 g-4">
@@ -214,4 +215,13 @@
       <!-- End section footer -->
     </div>
   </body>
+  <script src="./assets/js/aos/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 1000, // values from 0 to 3000, with step 50ms
+      easing: "ease",
+    });
+  </script>
 </html>
